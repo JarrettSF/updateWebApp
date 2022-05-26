@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+a {font-size: 24px; margin-left: 60px;}
+top {margin-left: 90px; font-size: 24px;}
+#fs {margin-left: 190px; margin-top: 350px;}
+
+#pp {height: 50px; margin-left: 45%; margin-top: 50%;}
+.two {font-size: 16px; color: darkred;}
+
+p {margin-left: 0px; font-size: 24px;}
+
+article {width: 100px; height: 150px; margin-top: 150px; }
+
+.ml3 { margin-bottom: 900px;}
+  font-weight: 200;
+  font-size: 30px; 
+}
+.ml3 {color:firebrick; font: italic;}
+
+div {margin-left: 30px;   font-size: 20px; color:darkred}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color:darkred;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn { margin-left: 25px; font-size: 18px; color: darkred; margin-top: 0px;}
+
+
+
+p {color:darkred ; }
+
+
+
+
+
+h2 {color: darkred; font-size: 13px;}
+
+.word {margin-top: 90px;}
+
+.ml15 {
+	
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+h2 { font: small-caps; margin-left:10px ; margin-top: 44px;  }
+img {border-radius: 20px;}
+ol {margin-left: 75%; margin-top: 20px}
+li {display: inline; margin-left: 5px;}
+
+
+ul{margin-left: 249px ; margin-top: 40px;}
+
+h1 {margin-top: 0px; margin-left: 3px ; }  
+
+
+
+
+
+
+
+
+	
+body { 
+  background: url(css/pics/bck.jpg) ;
+	background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	
+         
+
+@media (min-width: 370px) and (min-height:350px){
+}
+@media (max-width: 900px) and (min-height:350px){
+}

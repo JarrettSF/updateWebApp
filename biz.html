@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+
+<html>
+     <!--    formal header   -->  
+    
+    <head>
+        <meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Talk To Me</title>
+        
+        <meta name="description" content="business page">
+        
+        <link rel="stylesheet" href="cal5.css">
+        
+        	<link rel="stylesheet" type="text/css" href="sams.css" media='screen and (min-width:901px)'/>
+        <link rel="stylesheet" type="text/css" href="sam.css" media='screen and (min-width: 340px)'/>
+    </head>
+    
+    
+    <body>
+
+        
+       
+      <!--   event    -->      
+        <div class="one">The business</div>
+        
+         <!--  form begins     -->  
+      
+        
+        
+       <form  action="connect.php" method="POST"> 
+            
+                   <?php
+        include("cal5.php");
+            ?>
+                 
+             <!--  div/ class that holds instructions about labels and input styling   --> 
+            <div class ="two">
+                
+                <label class ="alpha" for="guest">How many songs did you listen to?</label><br>
+            
+                <input id = "em" class ="alpha" type="int" id="G" name="gs" min="1" max="100">
+                <span class="error"> <?php echo $gsErr;?></span><br>
+        
+                
+                    
+                    <label class ="delta" for="notes">What is your favorite track?</label><br>
+                <input id = "empt" class ="delta" type="text"  name="note" placeholder="Write note...">
+                    <span class="error"> <?php echo $noteErr;?></span>
+                </div>
+                    
+                
+                    <div class="l">
+  <label class ="sigma" for="appointment">Would you like to purchase an album?</label><br>
+            
+  <input id = "empty" class ="sigma" type="text" name="apt"  >
+                        <span class="error"> <?php echo $aptErr;?></span><br>    
+                 
+                       <br>
+                       
+                       
+                       <label for="email">Email:</label>
+<input type="email" id="email" name="email">
+                       <span class="error"> <?php echo $emailErr;?>
+                 
+            <br > <input id = "submit" name = "submit" type="submit"><br>
+                           
+                           <br>
+                              <a class = "top" href="support.html" >
+			Donate now </a>
+           

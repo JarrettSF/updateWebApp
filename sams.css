@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+a {font-size: 24px; margin-left: 60px;}
+.top {font-size: 26px ; margin-left: 90px;}
+#fs {margin-left: 190px; margin-top: 350px;}
+#pp {height: 50px; margin-left: 500px; margin-top: 650px;}
+
+.two {font-size: 16px; color: darkred;}
+
+
+
+.modal { border-radius: 25px;
+
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {border-radius: 25px;
+
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color:darkred;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+.ll {margin-left: 10px;   font-size: 20px; color:darkred}
+
+
+
+
+p {color:darkred ; }
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+h2 {color: darkred; font-size: 13px;}
+
+.ml15 {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#myBtn {margin-top: 50px; color: crimson; font-size: 18px; border-radius: 25px;}
+
+#itemImgg {margin-left: 30px;}
+
+img {border-radius: 20px;}
+ol {margin-left: 78% ; margin-bottom: 30px}
+
+.ml3 {margin-left: 50px; color: darkred;}
+
+
+h2 { font: small-caps; margin-left:780px ; margin-top: 140px;  }
+
+li {display: inline; position: relative; margin-left: 12px;}
+
+ul{margin-left: 810px ;}
+
+h1 {margin-left: 10px; } 
+
+
+ body { 
+  background: url(css/pics/bck.jpg) ;
+	  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	
+
+	
+@media (min-width: 944px) and (min-height:500px){
+}
+
+
+
+
+
+
+
+
+
